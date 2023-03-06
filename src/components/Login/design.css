@@ -1,0 +1,104 @@
+.sign-box {
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 40px;
+  }
+  .forms form div {
+    margin: 10px 0;
+  }
+ .login-input {
+    width: 50%;
+    height: 50%;
+    margin-left: 405px;;
+  }
+  .forms form .flex input {
+    width: 10px;
+    height: 20px;
+    margin-right: 15px;
+  }
+  .forms form .option{
+    margin-left: 405px;
+  }
+  .forms p {
+    font-size: 13px;
+  }
+  .forms form label {
+    margin: 8px;
+  }
+  .forms form span {
+    margin-top: 11px;
+    color: crimson;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  .forms form button {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .forms form .sign-in-btn {
+    width: 11%;
+    margin: 4px 0px;
+    margin-left: 405px;
+
+  }
+  .forms form a {
+    color: blue;
+    font-size: 13px;
+  }
+  .forms form .account p {
+    margin-top: 11px;
+    margin-left: 16px;
+  }
+  
+  /*----------show-data---------*/
+  .show-data h1 {
+    color: #31b675;
+    margin: 0 0 20px 0;
+  }
+  .show-data h3 {
+    display: flex;
+  }
+  .show-data h3 p {
+    font-weight: 400;
+    margin-left: 5px;
+  }
+  .show-data .sign-box {
+    margin-top: 50px;
+  }
+  /*----------show-data---------*/
+  @media screen and (max-width: 768px) {
+    .sign-box {
+      width: 80%;
+    }
+    .login-input {
+      width: 80%;
+      height: 70%;
+     margin-left: 30px;
+    }
+    .forms form .option{
+      margin-left: 30px;
+    }
+    .forms form span {
+      margin-top: 11px;
+      color: crimson;
+      font-size: 10px;
+      margin-left: 2px;
+    }
+    .forms form label {
+      font-size: 12px;
+      margin-left: 8px;
+    }
+    .forms form .account p {
+      margin-top: 10px;
+      margin-left: -10px;
+      font-size: 11px;
+    }
+    .forms form .sign-in-btn {
+      width: 50%;
+      margin: 4px 10px;
+      margin-left: 30px;
+      
+    }
+  }
+  
